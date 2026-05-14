@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Hamster | Steal a Boli</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700;800&family=Roboto+Mono:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<header>
+
+    <div class="top-banner">
+
+        <div class="banner-track">
+
+            🍋 NO TE QUEDES SIN TU BOLI 🫵 —
+            Participa por increíbles premios incluyendo un peluche de Tung Tung Tung Sahur
+
+            🍋 NO TE QUEDES SIN TU BOLI 🫵 —
+            Participa por increíbles premios incluyendo un peluche de Tung Tung Tung Sahur
+
+            🍋 NO TE QUEDES SIN TU BOLI 🫵 —
+            Participa por increíbles premios incluyendo un peluche de Tung Tung Tung Sahur
+
+        </div>
+
+    </div>
+
+    <nav class="navbar">
+
+        <div class="logo-container">
+            <img src="imagenes/logo.png" alt="Logo">
+        </div>
+
+        <ul class="nav-links" id="navLinks">
+
+            <li><a href="index.html">Inicio</a></li>
+
+            <li><a href="productos.html">Productos</a></li>
+
+            <li><a href="ubicacion.html">Dónde encontrarnos</a></li>
+
+            <li><a href="nosotros.html">Acerca de nosotros</a></li>
+
+        </ul>
+<div class="hamburger">
+    ☰
+</div>
+    </nav>
+
+</header>
+<main>
+<section class="producto-individual">
+
+    <div class="producto-ind-img">
+
+        <img src="imagenes/boli_mango.jpeg" alt="Hamster">
+
+    </div>
+
+    <div class="producto-info">
+
+        <h1>Hamster 🥭</h1>
+
+        <p class="producto-desc">
+            Un delicioso boli de mango natural,
+            dulce, refrescante y perfecto para el calor.
+        </p>
+
+        <h3>Ingredientes ✨</h3>
+
+        <ul>
+            <li>Mango natural</li>
+            <li>Endulzante sin azúcar</li>
+            <li>Agua purificada</li>
+            <li>Muchísimo estilo</li>
+        </ul>
+
+        <div class="precio">
+            $25 MXN
+        </div>
+
+        <a
+            href="https://www.instagram.com/steal_a.boli"
+            target="_blank"
+            class="hero-btn"
+        >
+            Hacer pedido
+        </a>
+
+    </div>
+
+</section>
+</main>
+<footer>
+    <p>
+        Steal a Boli | Cobach 6 | Informática | Emprendimiento
+    </p>
+</footer>
+
+<script>
+
+    const hamburger = document.querySelector(".hamburger");
+    const navLinks = document.querySelector("#navLinks");
+
+    hamburger.addEventListener("click", () => {
+
+        navLinks.classList.toggle("active");
+
+    });
+
+</script>
+
+</body>
+</html>
